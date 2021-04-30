@@ -1,10 +1,8 @@
-import GetProjects from  "./components/GetProjectData";
-import './App.css';
-
+import CRUD from './components/CRUD';
 function App() {
   return (
     <div className="App">
-    <GetProjects/ >
+      <CRUD/>
     </div>
   );
 }
